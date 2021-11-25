@@ -1,9 +1,60 @@
-h1 {
-  color: red;
-  font-family: "DM Serif Display", serif;
-  font-size: 75px;
+:root {
+  --r3llie-color: rgb(130, 158, 153);
+  --secondary-color: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
+  --third-color:#251b15;
+  --heading-font-family: "DM Serif Display", serif;
+  --default-font-family: "DM Serif Display", serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+h1 {
+  font-size: 96px;
+}
 p {
-  font-family: "Noto Sans", sans-serif;
+  font-weight: normal;
+}
+body {
+  font-family: var(--default-font-family);
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  margin: 0;
+  color: var(--third-color);
+}
+
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 2;
+  color: var(--third-color);
+}
+
+.btn-r3llie {
+  background: var(--r3llie-color);
+  border-radius: 4px;
+  color: #fcecdc;
+  line-height: 28px;
+  font-size: 18px;
+  padding: 13px 23px;
+  font-weight: bolder;
 }
