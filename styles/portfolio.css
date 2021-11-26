@@ -21,8 +21,14 @@ h6 {
 h1 {
   font-size: 96px;
 }
+h2 {
+  font-size: 64px;
+}
+
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
 }
 body {
   font-family: var(--default-font-family);
@@ -57,4 +63,42 @@ body {
   font-size: 18px;
   padding: 13px 23px;
   font-weight: bolder;
+}
+
+.project-description {
+  padding: 75px 60px;
+}
+
+.r3llie-project-button {
+  border: 3px solid var(--r3llie-color);
+  border-radius: 4px;
+  color: var(--third-color);
+  line-height: 28px;
+  font-size: 18px;
+  padding: 13px 23px;
+  font-weight: bolder;
+  text-decoration: none;
+
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 10px;
+    text-align: center;
+  }
+  .hero {
+    padding: 10px;
+  }
+ 
+  h1 {
+    font-size: 75px;
+    margin: 0;
+  }
+ .hero h2 {
+   line-height: 1.7;
+  
+  }
+  h2 {
+    font-size: 38px;
+  }
 }
