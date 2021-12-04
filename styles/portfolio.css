@@ -180,22 +180,13 @@ margin-top: 50px;
 }
 
 @media (max-width: 900px) {
-  .project-description {
-    padding: 10px;
-    text-align: center;
+  nav li {
+    line-height: 50px;
+    margin-left: 15px;
   }
-  .hero {
-    padding: 18px;
-  }
-
   h1 {
     font-size: 75px;
     margin: 0;
-  }
-  .hero h2 {
-    line-height: 1.7;
-    margin-bottom: 20px;
-   
   }
   h2 {
     font-size: 38px;
@@ -207,6 +198,28 @@ margin-top: 50px;
     margin-top: 30px;
     
   }
+p {
+  font-size: 14px;
+}
+
+  .project-description {
+    padding: 10px;
+    text-align: center;
+  }
+  .hero {
+    padding: 18px;
+  }
+
+  .hero h2 {
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-size: 18px;
+   
+  }
+  .hero p {
+    font-size: 30px;
+  }
+  
   .content h1 {
     line-height: 1.3;
   }
@@ -215,16 +228,13 @@ margin-top: 50px;
     text-align: center;
   }
   .content p {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
   }
   .logo {
-    max-width: 100px;
+    max-width: 50px;
   }
-  nav li {
-    line-height: 100px;
-    margin-left: 15px;
-  }
+  
   .about-img {
     max-width: 80%;
     margin-top: 0;
