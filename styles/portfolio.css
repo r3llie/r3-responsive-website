@@ -141,7 +141,7 @@ max-width: 68%;
 
 .content h1 {
   font-size: 44px;
-  line-height: 40px;
+  line-height: 43px;
 }
 
 .content h2 {
@@ -209,7 +209,7 @@ max-width: 68%;
     
   }
 p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
   .project-description {
@@ -223,7 +223,7 @@ p {
   .hero h2 {
     line-height: 1.7;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 20px;
    
   }
   .hero p {
@@ -238,7 +238,7 @@ p {
     text-align: center;
   }
   .content p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
   }
   .logo {
