@@ -141,13 +141,17 @@ max-width: 68%;
 
 .content h1 {
   font-size: 44px;
-  line-height: 43px;
+  line-height: 64px;
 }
 
 .content h2 {
   font-size: 18px;
   color: var(--third-color);
   transition: all 100ms ease-in-out;
+}
+
+.work-content {
+ padding-bottom: 0;
 }
 
 
