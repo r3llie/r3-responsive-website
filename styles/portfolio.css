@@ -124,7 +124,7 @@ nav li.active a {
 
 .about-img {
 margin-top: 50px;
-max-width: 78%;
+max-width: 68%;
 }
 
 .nav-container {
@@ -132,7 +132,7 @@ max-width: 78%;
 }
 
 .content-container {
-  padding: 30px 20px;
+  padding: 65px 20px;
 }
 
 .content {
@@ -141,7 +141,7 @@ max-width: 78%;
 
 .content h1 {
   font-size: 44px;
-  line-height: 80px;
+  line-height: 50px;
 }
 
 .content h2 {
@@ -188,11 +188,11 @@ max-width: 78%;
 
 @media (max-width: 900px) {
   nav {
-    padding: 8px;
+    padding: 15px;
   }
   nav li {
     line-height: 50px;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   h1 {
     font-size: 75px;
