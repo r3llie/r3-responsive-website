@@ -28,7 +28,7 @@ h3 {
   font-size: 48px;
 }
 h4 {
-  margin-left: 13px;
+  margin-left: 25px;
 }
 a {
   text-decoration: none;
@@ -44,19 +44,20 @@ body {
   font-family: var(--default-font-family);
 }
 nav {
-  padding: 13px 0;
+  padding: 8px 0;
+}
+
+nav ul {
+  margin-bottom: 0;
 }
 
 nav li {
   display: inline;
   list-style: none;
-  line-height: 130px;
+  line-height: 93px;
   margin-left: 50px;
 }
-nav ul {
-  padding: 0;
-  margin: 0;
-}
+
 nav a {
   color: var(--third-color);
   
@@ -70,14 +71,14 @@ nav li.active a {
   opacity: .5;
 }
 .logo {
-  max-width: 150px;
+  max-width: 100px;
   border-radius: 80px;
 }
 
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -123,10 +124,15 @@ nav li.active a {
 
 .about-img {
 margin-top: 50px;
+max-width: 78%;
+}
+
+.nav-container {
+  max-height: 115px;
 }
 
 .content-container {
-  padding: 80px 20px;
+  padding: 30px 20px;
 }
 
 .content {
@@ -175,14 +181,18 @@ margin-top: 50px;
   color: var(--r3llie-color);
 }
 .model-card {
-  margin-left: 30px;
+  margin-left: 27px;
   margin-bottom: 30px;
 }
 
+
 @media (max-width: 900px) {
+  nav {
+    padding: 8px;
+  }
   nav li {
     line-height: 50px;
-    margin-left: 15px;
+    margin-left: 10px;
   }
   h1 {
     font-size: 75px;
@@ -239,4 +249,5 @@ p {
     max-width: 80%;
     margin-top: 0;
   }
+  
 }
