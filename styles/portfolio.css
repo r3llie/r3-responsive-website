@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: var(--third-color)
 }
 
 p {
@@ -204,6 +204,9 @@ max-width: 70%;
 .model-card {
   margin-left: 27px;
   margin-bottom: 30px;
+}
+.source-link:hover {
+  color: rgb(2, 2, 104);
 }
 
 
