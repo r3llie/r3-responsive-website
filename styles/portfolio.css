@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: black;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -121,7 +125,7 @@ nav li.active a {
 .r3llie-project-button {
   border: 3px solid var(--r3llie-color);
   border-radius: 4px;
-  color: var(--third-color);
+  color: var(--r3llie-color);
   line-height: 28px;
   font-size: 18px;
   padding: 13px 23px;
