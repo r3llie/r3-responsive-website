@@ -188,7 +188,7 @@ max-width: 70%;
 }
 
 .footer-email {
-  font-size: 28px;
+  font-size: 24px;
   color: var(--third-color)
 }
 
@@ -216,7 +216,7 @@ max-width: 70%;
     margin: 0;
   }
   h2 {
-    font-size: 38px;
+    font-size: 44px;
     
   }
   h4 {
@@ -261,5 +261,5 @@ p {
     max-width: 80%;
     margin-top: 0;
   }
-
+  
 }
